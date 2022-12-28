@@ -1,9 +1,9 @@
-document.querySelector('button').addEventListener('click', getAfroName)
+document.querySelector('button').addEventListener('click', getArtistName)
 
 async function getAfroName(){
-    const afroName = document.querySelector('input').value
+    const artistName = document.querySelector('input').value
     try{
-        const res = await fetch(`https://rap-api-100devs.herokuapp.com/api/artists/${afroName}`)
+        const res = await fetch(`https://cerulean-foal-kit.cyclic.app/api/artists/${artistName}`)
         const data = await res.json()
         console.log(data)
         document.querySelector('.birthName').innerText = data.birthName
