@@ -1,15 +1,15 @@
-document.querySelector('button').addEventListener('click', apiRequest)
+document.querySelector('button').addEventListener('click', getAfroName)
 
-async function apiRequest(){
-    const afroArtistName = document.querySelector('input').value
+async function getAfroName(){
+    const afroName = document.querySelector('input').value
     try{
-        const response = await fetch(`https://rap-names-api-fun.herokuapp.com/api/${afroArtistName}`)
-        const data = await response.json()
-
+        const res = await fetch(`https://rap-api-100devs.herokuapp.com/api/artists/${afroName}`)
+        const data = await res.json()
         console.log(data)
         document.querySelector('.birthName').innerText = data.birthName
         document.querySelector('.birthPlace').innerText = data.birthPlace
-    }catch(error){
-        console.log(error)
+    }catch(err){
+        console.log(err)
     }
+
 }

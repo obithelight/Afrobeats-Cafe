@@ -44,10 +44,9 @@ app.get('/api/:musician', (request, response) => {
     }else{
         response.json('unknown')        
     }
-
-    //response.json(artists)    
+    
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`Server is running on port ${PORT}`)
 })
