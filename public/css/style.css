@@ -6,6 +6,7 @@
 body{
 	background: skyblue;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 h1{
