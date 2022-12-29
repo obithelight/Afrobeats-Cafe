@@ -9,33 +9,46 @@ app.use(express.static('public'));
 let artists = {
     'davido': {
         'age': 30,
-        'birthName': 'David Adedeji Adeleke',
-        'birthLocation': 'Atlanta, Georgia, USA'
+        'birthName': 'David Adeleke',
+        'birthLocation': 'Atlanta, USA'
+        'yearsActive':  '2009–present'
+        'labels':  'DMW, Sony Music Africa'
     },
     'wizkid':{
         'age': 32,
-        'birthName': 'Ayodeji Ibrahim Balogun',
-        'birthLocation': 'Surulere, Lagos, Nigeria'
+        'birthName': 'Ayodeji Balogun',
+        'birthLocation': 'Lagos, Nigeria'
+        'yearsActive':  '2001–present'
+        'labels':  'Starboy Entertainment, RCA'
     },
     'burna boy':{
         'age': 31,
-        'birthName': 'Damini Ebunoluwa Ogulu',
-        'birthLocation': 'Port Harcourt, Rivers, Nigeria'
+        'birthName': 'Damini Ogulu',
+        'birthLocation': 'Port Harcourt, Nigeria'
+        'yearsActive':  '2010–present'
+        'labels':  'Atlantic Records'
     },
     'tiwa savage':{
         'age': 42,
         'birthName': 'Tiwatope Savage',
-        'birthLocation': 'Isale Eko, Lagos, Nigeria'
+        'birthLocation': 'Lagos, Nigeria'
+        'yearsActive':  '1996–present'
+        'labels':  '323, Universal Music Group'
     },
     'flavour':{
         'age': 39,
-        'birthName': 'Chinedu Izuchukwu Okoli',
-        'birthLocation': 'Enugu, Nigeria'
+        'birthName': 'Chinedu Okoli',
+        'birthLocation': 'Enugu, Nigeria',
+        'yearsActive':  '2005–present',
+        'labels':  '2nite Music Group',
     },
         'unknown':{
-        'age': 50,
+        'age': 'unknown',
         'birthName': 'unknown',
-        'birthLocation': 'unknown'
+        'nickName': 'unknown',
+        'birthLocation': 'unknown',
+        'yearsActive':  'unknown',
+        'labels':  'unknown',
      }
  } 
 
