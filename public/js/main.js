@@ -6,9 +6,9 @@ async function getArtistInfo(){
         const res = await fetch(`https://cerulean-foal-kit.cyclic.app/api/${artistName}`)
         const data = await res.json()
         console.log(data)
-        document.querySelector('.age').innerText = data.age
-        document.querySelector('.birthName').innerText = data.birthName
-        document.querySelector('.birthLocation').innerText = data.birthLocation
+        document.querySelector('.age').innerText = `Age: ${data.age}`
+        document.querySelector('.birthName').innerText = `Birth Name: ${data.birthName}`
+        document.querySelector('.birthLocation').innerText = `Birth Location: ${data.birthLocation}`
     }catch(err){
         console.log(err)
     }
