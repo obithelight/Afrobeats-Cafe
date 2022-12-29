@@ -13,19 +13,24 @@ let artists = {
         'birthLocation': 'Atlanta, USA'
     },
     'wizkid':{
-        'age': 27,
+        'age': 32,
         'birthName': 'Ayo Balogun',
         'birthLocation': 'Lagos, Nigeria'
     },
     'burna boy':{
-        'age': 28,
+        'age': 30,
         'birthName': 'Damini Ogulu',
-        'birthLocation': 'Port Harcourt, Rivers State, Nigeria'
+        'birthLocation': 'Port Harcourt, Nigeria'
     },
     'tiwa savage':{
         'age': 38,
         'birthName': 'Oluwatiwa Savage',
         'birthLocation': 'Lagos, Nigeria'
+    },
+    'flavour':{
+        'age': 35,
+        'birthName': 'Chinedu Okoli',
+        'birthLocation': 'Enugu, Nigeria'
     },
         'unknown':{
         'age': 50,
