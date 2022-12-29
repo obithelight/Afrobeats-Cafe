@@ -1,3 +1,5 @@
+alert('working')
+
 document.querySelector('button').addEventListener('click', getArtistInfo)
 
 async function getArtistInfo(){
@@ -13,3 +15,5 @@ async function getArtistInfo(){
     }
 
 }
+
+https://cerulean-foal-kit.cyclic.app/api/DAVIDO
