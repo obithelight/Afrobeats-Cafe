@@ -8,28 +8,28 @@ app.use(express.static('public'));
 
 let artists = {
     'davido': {
-        'age': 28,
-        'birthName': 'David Adeleke',
-        'birthLocation': 'Atlanta, USA'
+        'age': 30,
+        'birthName': 'David Adedeji Adeleke',
+        'birthLocation': 'Atlanta, Georgia, USA'
     },
     'wizkid':{
         'age': 32,
-        'birthName': 'Ayo Balogun',
-        'birthLocation': 'Lagos, Nigeria'
+        'birthName': 'Ayodeji Ibrahim Balogun',
+        'birthLocation': 'Surulere, Lagos, Nigeria'
     },
     'burna boy':{
-        'age': 30,
-        'birthName': 'Damini Ogulu',
-        'birthLocation': 'Port Harcourt, Nigeria'
+        'age': 31,
+        'birthName': 'Damini Ebunoluwa Ogulu',
+        'birthLocation': 'Port Harcourt, Rivers, Nigeria'
     },
     'tiwa savage':{
-        'age': 38,
-        'birthName': 'Oluwatiwa Savage',
-        'birthLocation': 'Lagos, Nigeria'
+        'age': 42,
+        'birthName': 'Tiwatope Savage',
+        'birthLocation': 'Isale Eko, Lagos, Nigeria'
     },
     'flavour':{
-        'age': 35,
-        'birthName': 'Chinedu Okoli',
+        'age': 39,
+        'birthName': 'Chinedu Izuchukwu Okoli',
         'birthLocation': 'Enugu, Nigeria'
     },
         'unknown':{
