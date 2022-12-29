@@ -19,12 +19,12 @@ let artists = {
         'birthName': 'Ayodeji Balogun',
         'birthLocation': 'Lagos, Nigeria',
         'yearsActive':  '2001–present',
-        'labels':  'Starboy Entertainment, RCA'
+        'labels':  'Starboy Entertainment'
     },
     'burna boy':{
         'age': 31,
         'birthName': 'Damini Ogulu',
-        'birthLocation': 'Port Harcourt, Nigeria'
+        'birthLocation': 'Port Harcourt, Nigeria',
         'yearsActive':  '2010–present',
         'labels':  'Atlantic Records'
     },
